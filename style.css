@@ -1,0 +1,34 @@
+body {
+    background-color: #c19768;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    /* width: 100%; */
+}
+
+#name-h {
+    font-family: 'Zeyada';
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+    margin-left: 15px;
+    margin-right: 70%;
+    text-shadow: 2px 2px 5px black;
+}
+
+#lin {
+    font-weight: bold;
+    color: white;
+}
+
+#lin:hover {
+    background: black;
+    transition: .5s;
+    color: white;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px white;
+
+}
+
+.navbar-custom {
+    background-color: #57412c;
+    /* border: 3px solid black; */
+}
