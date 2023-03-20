@@ -1,10 +1,12 @@
 let name = prompt("please enter your name");
 let gender = prompt("please enter your Gender");
-while (gender != "male" && gender != "female") {
-    gender = prompt("please enter your correct Gender");
-
+function gen() {
+    while (gender != "male" && gender != "female") {
+        gender = prompt("please enter your correct Gender");
+    }
 
 }
+gen();
 if (gender == "male") {
     alert("Welcome MR" + " " + name);
 
@@ -19,7 +21,7 @@ else {
 
 
 let typeOfDrink = " "
-if (confirm("Do you want a hot drink?") == true) {
+if (confirm("Do you want a hot drink☕") == true) {
     typeOfDrink = "hot";
 }
 else {
@@ -32,3 +34,4 @@ let arr = [name, gender, typeOfDrink, drink];
 for (let i = 0; i < arr.length; i++) {
     console.log(arr[i])
 }
+// console.log(`the price is ${drink}`)
